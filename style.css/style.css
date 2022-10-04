@@ -1,0 +1,170 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    letter-spacing: 8px;
+    cursor: pointer;
+}
+
+a :hover{
+    background-color: #1f1e1e38;
+}
+
+li {
+   list-style: none;
+}
+
+ul{
+    display: flex;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    height: 80px;
+    background-color: #f8f8f8;
+}
+
+main {
+    padding-top: 80px;
+}
+
+.artimg {
+    position: relative;
+}
+
+.br {
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    top: 0;
+    margin: 300px;   
+    margin-left: 500px;
+   } 
+
+   .bir{
+    background-color: #181818;
+    opacity: 0.8;
+    font-size: 50px;
+    color: #f7f7f7;
+    padding: 15px;
+   }
+
+   .iki{
+    color: #f7f7f7;
+    font-size: 25px;
+    letter-spacing: 5px;
+    padding: 15px;
+   }
+
+   .projects {
+    margin-left: 40px;
+    font-size: 25px
+   }
+
+   .bigbox { 
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 600px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+   }
+
+   .box {
+    padding: 5px 5px 5px 5px;
+    margin-top: 30px;
+    position: relative;
+   }
+
+   hr {
+    opacity: 0.6;
+   }
+
+   .bb {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: #f7f7f7;
+    font-size: 15px;
+    padding: 10px;
+   }
+
+   .about {
+    margin-left: 40px;
+    font-size: 25px
+   }
+
+   .text{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+   }
+
+   .people {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-between;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+   }
+
+   .peopletext {
+    text-align: justify;
+    width: 300px;
+     }
+
+     .contact {
+        background: #EFEFEF;
+        font-size: 20px;
+        border: none;
+        width: 300px;
+        text-align: center;
+        padding: 15px;
+     }
+
+     .footer {
+        margin-left: 40px;
+        font-size: 25px
+       }
+
+       input {
+        width: 100%;
+       padding: 10px;
+       }
+
+       .input {
+        width: 100%;
+       }
+
+       .foot {
+        padding: 5px;
+        width: 100%;
+       }
+       
+       .send {
+        background-color: black;
+        color: white;
+        font-size: 15px;
+        padding: 10px;
+        margin-left: 5px;
+        margin-top: 10px;
+       }
